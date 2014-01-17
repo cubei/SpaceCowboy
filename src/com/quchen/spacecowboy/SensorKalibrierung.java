@@ -1,5 +1,8 @@
 package com.quchen.spacecowboy;
-
+/**
+ * Uses the current orientation as default 0 orientation = no movement
+ * @author lars
+ */
 import android.app.Activity;
 import android.hardware.SensorManager;
 import android.os.Bundle;

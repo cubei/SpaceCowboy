@@ -1,5 +1,9 @@
 package com.quchen.spacecowboy;
-
+/**
+ * Displays the highest score.
+ * Used when not connected to the google play services.
+ * @author lars
+ */
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;

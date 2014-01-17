@@ -1,5 +1,9 @@
 package com.quchen.spacecowboy;
-
+/**
+ * Holds same variables and constants
+ * Holds the player for the background music
+ * @author Lars
+ */
 import android.app.Activity;
 import android.content.Context;
 import android.content.res.Configuration;
@@ -13,7 +17,6 @@ public class Util {
 	//---------------------------------------------
 	
 	public static final String VERSION = "1.01";
-	public static final boolean DEBUG = false;
 	// Devicesettings
 	public static float DENSITY = 1;
 	public static float DISPLAX_SIZE = 5;
@@ -21,7 +24,7 @@ public class Util {
 	public static int PIXEL_HEIGHT = 480;
 	public static int ORIENTATION = 1;
 	// Systemsettings
-	public static short DEFAULT_FONT_SIZE = 20;		// Milestone 2
+	public static short DEFAULT_FONT_SIZE = 20;		// Motorola Milestone 2
 	public static final short UPDATE_INTERVAL = 50;
 	public static final byte TO_DEGREE = 90;
 	public static final float DISTANCE_COLLISION_FACTOR = 0.4f;

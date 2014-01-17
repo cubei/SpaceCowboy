@@ -1,5 +1,7 @@
 package com.quchen.spacecowboy;
 /**
+ * A Timer that can pause and resume
+ * All timers are stored in a list so they can be paused and resume at the ~same time
  * https://github.com/c05mic/pause-resume-timer
  */
 

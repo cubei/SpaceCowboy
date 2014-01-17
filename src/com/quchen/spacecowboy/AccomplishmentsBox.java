@@ -1,4 +1,8 @@
 package com.quchen.spacecowboy;
+/**
+ * Class to store all accomplishments.
+ * @author lars
+ */
 
 import android.app.Activity;
 import android.content.SharedPreferences;
@@ -79,7 +83,11 @@ public class AccomplishmentsBox {
 	private static final String name = "ACCOMBLISHMENTS";
 	
 	/**
-	 * stores the score and achievements locally.
+	 * Stores the score and achievements locally.
+	 * 
+	 * The accomblishments will be saved local via SharedPreferences.
+	 * This makes it very easy to cheat.
+	 * 
 	 * @param outbox Data that should be saved
 	 * @param activity activity that is needed for shared preferences
 	 */
@@ -226,6 +234,11 @@ public class AccomplishmentsBox {
 		return activity.getSharedPreferences(name, 0).getInt("coins_total", 0);
 	}
 	
+	/**
+	 * Decreases the coins after an purchase in the upgrade store
+	 * @param activity
+	 * @param value
+	 */
 	public static void decreaseCoins(Activity activity, int value){
 		SharedPreferences saves = activity.getSharedPreferences(name, 0);
 		SharedPreferences.Editor editor = saves.edit();

@@ -1,5 +1,9 @@
 package com.quchen.spacecowboy;
-
+/**
+ * Activity for settings.
+ * Volumelevels and sensorcalibration
+ * @author lars
+ */
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;

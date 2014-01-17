@@ -1,5 +1,8 @@
 package com.quchen.spacecowboy;
-
+/**
+ * The shopactivity for buying upgrades
+ * @author lars
+ */
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,5 +1,8 @@
 package com.quchen.spacecowboy;
-
+/**
+ * The player
+ * @author lars
+ */
 import android.content.Context;
 import android.graphics.Canvas;
 

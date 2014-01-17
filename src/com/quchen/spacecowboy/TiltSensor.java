@@ -1,5 +1,8 @@
 package com.quchen.spacecowboy;
-
+/**
+ * Uses the orientationsensor to detect whether the device is tilted
+ * @author lars
+ */
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;

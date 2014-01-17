@@ -1,5 +1,8 @@
 package com.quchen.spacecowboy;
-
+/**
+ * The class all gameobjects inherit from
+ * @author lars
+ */
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

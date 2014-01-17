@@ -1,5 +1,8 @@
 package com.quchen.spacecowboy;
-
+/**
+ * A meteorite that stuns the player
+ * @author lars
+ */
 import android.content.Context;
 import android.graphics.Canvas;
 

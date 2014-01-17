@@ -1,5 +1,8 @@
 package com.quchen.spacecowboy;
-
+/**
+ * A Meteorite that damages the player
+ * @author lars
+ */
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

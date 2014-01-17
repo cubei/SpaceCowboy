@@ -1,5 +1,9 @@
 package com.quchen.spacecowboy;
-
+/**
+ * Displays the splashscreen at the start of the app.
+ * Provides buttons to settings, highscore, gamestart, ...
+ * @author lars
+ */
 import com.google.android.gms.common.SignInButton;
 import com.google.example.games.basegameutils.GameActivity;
 

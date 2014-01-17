@@ -1,5 +1,8 @@
 package com.quchen.spacecowboy;
-
+/**
+ * A Milkcontainer that raises the max milk amount
+ * @author lars
+ */
 import android.content.Context;
 import android.graphics.Bitmap;
 

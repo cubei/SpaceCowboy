@@ -1,5 +1,8 @@
 package com.quchen.spacecowboy;
-
+/**
+ * Cow that doesn't give milk but a protecting shield
+ * @author lars
+ */
 import android.content.Context;
 import android.graphics.Bitmap;
 

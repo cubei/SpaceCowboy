@@ -1,5 +1,8 @@
 package com.quchen.spacecowboy;
-
+/**
+ * Cow that infects the player with an 'damage over time' effect
+ * @author lars
+ */
 import android.content.Context;
 import android.graphics.Bitmap;
 

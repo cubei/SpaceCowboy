@@ -1,5 +1,8 @@
 package com.quchen.spacecowboy;
-
+/**
+ * Cow that varies in speed and direction
+ * @author lars
+ */
 import android.content.Context;
 import android.graphics.Bitmap;
 

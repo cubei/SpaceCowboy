@@ -1,5 +1,9 @@
 package com.quchen.spacecowboy;
-
+/**
+ * Main activity of the game.
+ * Provides the touchevents and hold the tiltSensorobject
+ * @author lars
+ */
 import com.google.android.gms.games.GamesClient;
 import com.google.example.games.basegameutils.GameActivity;
 
@@ -21,6 +25,9 @@ import android.widget.Toast;
 
 public class Game extends GameActivity implements OnTouchListener{
 	
+	/**
+	 * Makes the game instance accessible for everyone
+	 */
 	public static Game theGame;
 
 	private GameView view;

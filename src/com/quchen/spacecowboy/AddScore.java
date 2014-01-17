@@ -1,5 +1,9 @@
 package com.quchen.spacecowboy;
-
+/**
+ * Gameover Dialog
+ * with points and the ability to upload accomblishments or save local
+ * @author lars
+ */
 import com.google.android.gms.games.GamesClient;
 import com.google.example.games.basegameutils.GameActivity;
 
@@ -39,6 +43,12 @@ public class AddScore extends GameActivity {
 		});
 	}
 	
+	/**
+	 * Publishes the accomplishments online with google play services
+	 * @param activity
+	 * @param box
+	 * @param gamesClient
+	 */
 	public static void submitScore(Activity activity, AccomplishmentsBox box, GamesClient gamesClient){
 		
 		gamesClient.submitScore(activity.getResources().getString(R.string.leaderboard_space_cowboy), box.score);

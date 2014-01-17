@@ -1,5 +1,8 @@
 package com.quchen.spacecowboy;
-
+/**
+ * A big meteorite that seperates into smaller rocks when destroyed
+ * @author lars
+ */
 import android.content.Context;
 import android.graphics.Bitmap;
 

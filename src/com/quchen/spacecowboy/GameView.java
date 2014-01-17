@@ -1,5 +1,10 @@
 package com.quchen.spacecowboy;
-
+/**
+ * Most important class of the game.
+ * Hold the game loop which checks all objects and draws them.
+ * Gets the tiltevents.
+ * @author lars
+ */
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,7 +30,7 @@ public class GameView extends SurfaceView implements Runnable, Tiltable{
 	volatile private boolean isTouched = false;
 	private float NPCspeedModifier = 1;
 	
-	volatile boolean punishment = false;
+	volatile boolean punishment = false;	// Creates a meteor shower when the player sleeps for a certain amount of time
 	
 	private Rocket rocket;
 	private BackGround bg;
@@ -57,18 +62,12 @@ public class GameView extends SurfaceView implements Runnable, Tiltable{
 
 	@SuppressLint("WrongCall")
 	public void run() {
-		long timeMillis = 0; // DEBUG Zeit
 		while(shouldRun){
-			// DEBUG Zeit
-			if(Util.DEBUG){timeMillis = System.currentTimeMillis();}
 			
 			if(!holder.getSurface().isValid()){
 				continue;
 			}
-			
-			// DEBUG
-			if(Util.DEBUG){Log.i("Space Cowboy Debug", "Check Start: " + (System.currentTimeMillis() - timeMillis));}
-			
+
 			// checks
 			if(this.game.getMilk() <= 0){
 				gameOver();
@@ -77,42 +76,23 @@ public class GameView extends SurfaceView implements Runnable, Tiltable{
 				checkTouchedRocks();
 				this.isTouched = false;
 			}
-			
-			// DEBUG
-			if(Util.DEBUG){Log.i("Space Cowboy Debug", "After Gameover & Touch: " + (System.currentTimeMillis() - timeMillis));}
-									
+					
 			checkTimeOut();
-			// DEBUG
-			if(Util.DEBUG){Log.i("Space Cowboy Debug", "After Timeout Check: " + (System.currentTimeMillis() - timeMillis));}
-			
+
 			checkOutOfRange();
-			// DEBUG
-			if(Util.DEBUG){Log.i("Space Cowboy Debug", "After Range Check: " + (System.currentTimeMillis() - timeMillis));}
-						
+		
 			checkCollision();
-			// DEBUG
-			if(Util.DEBUG){Log.i("Space Cowboy Debug", "After Collision Check: " + (System.currentTimeMillis() - timeMillis));}
-			
+
 			createNew();
-			// DEBUG
-			if(Util.DEBUG){Log.i("Space Cowboy Debug", "After Create New: " + (System.currentTimeMillis() - timeMillis));}
-						
+		
 			move();
-			// DEBUG
-			if(Util.DEBUG){Log.i("Space Cowboy Debug", "After Move: " + (System.currentTimeMillis() - timeMillis));}	
-			
+
 			// draw
 			Canvas c = holder.lockCanvas();
 			onDraw(c);
-			
-			// DEBUG
-			if(Util.DEBUG){Log.i("Space Cowboy Debug", "After Draw: " + (System.currentTimeMillis() - timeMillis));}
-			
+
 			holder.unlockCanvasAndPost(c);
 			game.updateStatsText();
-			
-			// DEBUG
-			if(Util.DEBUG){Log.i("Space Cowboy Debug", "After Final Updates: " + (System.currentTimeMillis() - timeMillis));}
 
 			// sleep
 			try {
@@ -163,11 +143,15 @@ public class GameView extends SurfaceView implements Runnable, Tiltable{
 		}
 	}
 	
+	/**
+	 * Draws the background and all sprites
+	 */
 	@Override
 	protected void onDraw(Canvas canvas) {
 		super.onDraw(canvas);
 		
 		bg.draw(canvas);
+		
 		for(Rock r : this.rocks){
 			r.draw(canvas);
 		}
@@ -182,6 +166,7 @@ public class GameView extends SurfaceView implements Runnable, Tiltable{
 	
 	/**
 	 * Checks whether a gameobject is timed out
+	 * isTimedOut means collided and stuff
 	 */
 	private void checkTimeOut(){
 		for(int i=0; i<this.rocks.size(); i++){

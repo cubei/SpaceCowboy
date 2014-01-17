@@ -1,5 +1,8 @@
 package com.quchen.spacecowboy;
-
+/**
+ * Cow that flees from the rocket
+ * @author lars
+ */
 import android.content.Context;
 import android.graphics.Bitmap;
 

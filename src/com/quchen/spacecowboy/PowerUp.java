@@ -1,8 +1,11 @@
 package com.quchen.spacecowboy;
-
+/**
+ * Class that all powerups inherit from
+ * @author lars
+ */
 import android.content.Context;
 
-public class PowerUp extends Sprite {
+public abstract class PowerUp extends Sprite {
 
 	public PowerUp(GameView view, Context context) {
 		super(view, context);

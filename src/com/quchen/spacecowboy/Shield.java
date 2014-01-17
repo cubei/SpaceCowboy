@@ -1,5 +1,8 @@
 package com.quchen.spacecowboy;
-
+/**
+ * The shield that the ghost cow provides
+ * @author lars
+ */
 import android.content.Context;
 
 public class Shield extends Sprite {

@@ -1,5 +1,8 @@
 package com.quchen.spacecowboy;
-
+/**
+ * Maincow
+ * @author lars
+ */
 import android.content.Context;
 import android.graphics.Bitmap;
 

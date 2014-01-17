@@ -1,4 +1,8 @@
 package com.quchen.spacecowboy;
+/**
+ * About Dialog
+ * @author lars
+ */
 
 import android.app.Activity;
 import android.content.pm.PackageManager.NameNotFoundException;
@@ -6,10 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-/**
- * About Dialog
- * @author lars
- */
+
 public class About extends Activity {
 	
 	private Button backButton;
@@ -31,8 +32,8 @@ public class About extends Activity {
 		try {((TextView) findViewById(R.id.version)).setText("Version: " + getPackageManager().getPackageInfo(getPackageName(), 0).versionName);
 		} catch (NameNotFoundException e) {e.printStackTrace();}
 		
+		// text must be scaled for different screens
 		((TextView) findViewById(R.id.version)).setTextSize(Util.getTextSize());
-		
 		((TextView) findViewById(R.id.developer)).setTextSize(Util.getTextSize());
 		((TextView) findViewById(R.id.graphics)).setTextSize(Util.getTextSize());
 		((TextView) findViewById(R.id.music)).setTextSize(Util.getTextSize());

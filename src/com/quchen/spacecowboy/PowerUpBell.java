@@ -1,5 +1,8 @@
 package com.quchen.spacecowboy;
-
+/**
+ * A bell that lures cows when collected
+ * @author lars
+ */
 import android.content.Context;
 import android.graphics.Bitmap;
 

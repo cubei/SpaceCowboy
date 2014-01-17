@@ -1,5 +1,8 @@
 package com.quchen.spacecowboy;
-
+/**
+ * Coin that give 5 coins
+ * @author lars
+ */
 import android.content.Context;
 import android.graphics.Bitmap;
 

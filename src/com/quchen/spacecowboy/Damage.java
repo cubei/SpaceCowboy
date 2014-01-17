@@ -1,5 +1,8 @@
 package com.quchen.spacecowboy;
-
+/**
+ * Provides a milksplash effect when hit
+ * @author lars
+ */
 import android.content.Context;
 import android.graphics.Bitmap;
 

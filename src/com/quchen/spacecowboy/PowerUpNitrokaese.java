@@ -1,5 +1,9 @@
 package com.quchen.spacecowboy;
-
+/**
+ * A cheese that slows down everything except the player himself
+ * Cheese = Kaese (german)
+ * @author lars
+ */
 import android.content.Context;
 import android.graphics.Bitmap;
 

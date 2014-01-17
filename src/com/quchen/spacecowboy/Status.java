@@ -1,5 +1,9 @@
 package com.quchen.spacecowboy;
-
+/**
+ * Displays the status of the player
+ * Poisoned, stuned, frozen
+ * @author lars
+ */
 import android.content.Context;
 import android.graphics.Bitmap;
 

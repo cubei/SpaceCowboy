@@ -1,5 +1,8 @@
 package com.quchen.spacecowboy;
-
+/**
+ * Cow that doesn't move and disappears after a certain timeout
+ * @author lars
+ */
 import android.content.Context;
 import android.graphics.Bitmap;
 
