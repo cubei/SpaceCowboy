@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/back_button" />
+
+    <Button
+        android:id="@+id/sensorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:text="@string/sensor_button" />
+
+    <TextView
+        android:id="@+id/tvMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sensorButton"
+        android:layout_marginTop="37dp"
+        android:layout_toLeftOf="@+id/sensorButton"
+        android:text="@string/config_music_volume"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <SeekBar
+        android:id="@+id/sbMusicVolume"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sensorButton"
+        android:layout_alignTop="@+id/tvMusic"
+        android:layout_marginLeft="26dp" />
+
+    <SeekBar
+        android:id="@+id/sbSoundVolume"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sbMusicVolume"
+        android:layout_alignTop="@+id/tvSound" />
+
+    <TextView
+        android:id="@+id/tvSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvMusic"
+        android:layout_below="@+id/sbMusicVolume"
+        android:layout_marginTop="18dp"
+        android:text="@string/config_sound_volume"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

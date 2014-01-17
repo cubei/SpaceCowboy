@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu" >
+
+    <com.google.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="a1505b713fa68b8"
+        ads:loadAdOnCreate="true"
+        ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID" />
+
+    <ImageButton
+        android:id="@+id/settingsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="settingsbutton"
+        android:src="@drawable/config_button" />
+
+    <ImageButton
+        android:id="@+id/helpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="helpbutton"
+        android:src="@drawable/help_button" />
+
+    <ImageButton
+        android:id="@+id/exitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="exitbutton"
+        android:src="@drawable/exit_button" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exitButton"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        tools:context=".MainActivity" />
+
+    <ImageButton
+        android:id="@+id/highscoreButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/playButton"
+        android:layout_below="@+id/playButton"
+        android:contentDescription="highscorebutton"
+        android:src="@drawable/highscore" />
+    
+    <ImageButton
+        android:id="@+id/highscoreButtonOffline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/playButton"
+        android:layout_below="@+id/playButton"
+        android:contentDescription="highscorebutton"
+        android:src="@drawable/highscore" />
+
+    <ImageButton
+        android:id="@+id/achievementButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/playButton"
+        android:layout_below="@+id/playButton"
+        android:src="@drawable/achievement_button" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="@string/about"
+        android:textSize="20sp" />
+    
+    <ImageButton
+        android:id="@+id/shopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/shop" />
+
+	<com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+    
+    <Button
+        android:id="@+id/sign_out_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Sign Out"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/about"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="playbutton"
+        android:src="@drawable/play_button_hdpi" />
+
+    <TextView
+        android:id="@+id/sign_in_button_help_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/settingsButton"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sign_in_button_help_text"
+        android:textColor="#000000" />
+
+</RelativeLayout>

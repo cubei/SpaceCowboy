@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_id">306645433177</string>
+    <string name="leaderboard_space_cowboy">CgkI2fb3q_YIEAIQAQ</string>
+    
+    <string name="achievement_survived_5">CgkI2fb3q_YIEAIQAg</string>
+    <string name="achievement_survived_15">CgkI2fb3q_YIEAIQBw</string>
+    <string name="achievement_undamaged_1">CgkI2fb3q_YIEAIQAw</string>
+    <string name="achievement_undamaged_5">CgkI2fb3q_YIEAIQCA</string>
+    <string name="achievement_cows_100">CgkI2fb3q_YIEAIQCQ</string>
+    <string name="achievement_cows_1000">CgkI2fb3q_YIEAIQBA</string>
+    <string name="achievement_cows_75_run">CgkI2fb3q_YIEAIQEA</string>
+    <string name="achievement_cows_200_run">CgkI2fb3q_YIEAIQEw</string>
+    <string name="achievement_meteoroids_100">CgkI2fb3q_YIEAIQCw</string>
+    <string name="achievement_meteoroids_1000">CgkI2fb3q_YIEAIQBg</string>
+    <string name="achievement_meteoroids_50_run">CgkI2fb3q_YIEAIQDA</string>
+    <string name="achievement_meteoroids_200_run">CgkI2fb3q_YIEAIQFA</string>
+    <string name="achievement_powerups_100">CgkI2fb3q_YIEAIQDQ</string>
+    <string name="achievement_powerups_30_run">CgkI2fb3q_YIEAIQEQ</string>
+    <string name="achievement_milkcontainer_100">CgkI2fb3q_YIEAIQDw</string>
+    <string name="achievement_sleepy_cowboy">CgkI2fb3q_YIEAIQEg</string>
+    <string name="achievement_catch_dancecow_frozen">CgkI2fb3q_YIEAIQFg</string>
+    <string name="achievement_heal_poison">CgkI2fb3q_YIEAIQFw</string>
+    <string name="achievement_low_milk_1_minutes">CgkI2fb3q_YIEAIQGA</string>
+    <string name="achievement_full_milk_2_minutes">CgkI2fb3q_YIEAIQGQ</string>
+    <string name="achievement_meteoroids_with_shield_10">CgkI2fb3q_YIEAIQGg</string>
+    <string name="achievement_lvl_10_with_10_milkcontainer">CgkI2fb3q_YIEAIQGw</string>
+    <string name="achievement_red_coin">CgkI2fb3q_YIEAIQHA</string>
+    <string name="achievement_leet_king">CgkI2fb3q_YIEAIQHQ</string>
+    <string name="achievement_catch_them_all">CgkI2fb3q_YIEAIQHg</string>
+</resources>

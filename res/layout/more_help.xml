@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollViewHelp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/moreHelpControlLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/moreHelpControlIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:contentDescription="Rock"
+                    android:src="@drawable/tilt_hdpi" />
+
+                <TextView
+                    android:id="@+id/moreHelpControlTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/moreHelpControlIV"
+                    android:layout_toRightOf="@+id/moreHelpControlIV"
+                    android:text="@string/moreHelpControl"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/moreHelpRockLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/moreHelpControlLayout">
+
+                <ImageView
+                    android:id="@+id/moreHelpRockIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="30dp"
+                    android:contentDescription="Rock"
+                    android:src="@drawable/rock_single" />
+
+                <TextView
+                    android:id="@+id/moreHelpRockTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/moreHelpRockIV"
+                    android:layout_toRightOf="@+id/moreHelpRockIV"
+                    android:text="@string/moreHelpRock"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/moreHelpRockFrozenLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:layout_below="@+id/moreHelpRockLayout">>
+
+                <ImageView
+                    android:id="@+id/moreHelpRockFrozenIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:contentDescription="Rock"
+                    android:src="@drawable/rock_single" />
+
+                <ImageView
+                    android:id="@+id/moreHelpRockFrozen2IV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:contentDescription="Rock"
+                    android:src="@drawable/rock_single" />
+
+                <TextView
+                    android:id="@+id/moreHelpRockFrozenTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/moreHelpRockFrozenIV"
+                    android:layout_toRightOf="@+id/moreHelpRockFrozenIV"
+                    android:text="@string/moreHelpRockFrozen"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/moreHelpRockFlashLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:layout_below="@+id/moreHelpRockFrozenLayout">>
+
+                <ImageView
+                    android:id="@+id/moreHelpRockFlashIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:contentDescription="Rock"
+                    android:src="@drawable/rock_single" />
+
+                <ImageView
+                    android:id="@+id/moreHelpRockFlash2IV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:contentDescription="Rock"
+                    android:src="@drawable/rock_single" />
+
+                <TextView
+                    android:id="@+id/moreHelpRockFlashTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/moreHelpRockFlashIV"
+                    android:layout_toRightOf="@+id/moreHelpRockFlashIV"
+                    android:text="@string/moreHelpRockFlash"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/moreHelpRockGuidedLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:layout_below="@+id/moreHelpRockFlashLayout">>
+
+                <ImageView
+                    android:id="@+id/moreHelpRockGuidedIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:contentDescription="Rock"
+                    android:src="@drawable/rock_single" />
+
+                <TextView
+                    android:id="@+id/moreHelpRockGuidedTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/moreHelpRockGuidedIV"
+                    android:layout_toRightOf="@+id/moreHelpRockGuidedIV"
+                    android:text="@string/moreHelpRockGuided"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/moreHelpRockFatLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:layout_below="@+id/moreHelpRockGuidedLayout">>
+
+                <ImageView
+                    android:id="@+id/moreHelpRockFatIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:contentDescription="Rock"
+                    android:src="@drawable/rock_single" />
+
+                <TextView
+                    android:id="@+id/moreHelpRockFatTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/moreHelpRockFatIV"
+                    android:layout_toRightOf="@+id/moreHelpRockFatIV"
+                    android:text="@string/moreHelpRockFat"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/moreHelpHelpCowLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/moreHelpRockFatLayout"> >
+
+                <ImageView
+                    android:id="@+id/moreHelpCowIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:contentDescription="Rock"
+                    android:src="@drawable/cow" />
+
+                <TextView
+                    android:id="@+id/moreHelpCowTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/moreHelpCowIV"
+                    android:layout_toRightOf="@+id/moreHelpCowIV"
+                    android:text="@string/moreHelpCow"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/moreHelpCowOldLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:layout_below="@+id/moreHelpHelpCowLayout">>
+
+                <ImageView
+                    android:id="@+id/moreHelpCowOldIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:contentDescription="Rock"
+                    android:src="@drawable/cow" />
+
+                <TextView
+                    android:id="@+id/moreHelpCowOldTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/moreHelpCowOldIV"
+                    android:layout_toRightOf="@+id/moreHelpCowOldIV"
+                    android:text="@string/moreHelpCowOld"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/moreHelpCowGhostLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:layout_below="@+id/moreHelpCowOldLayout">>
+
+                <ImageView
+                    android:id="@+id/moreHelpCowGhostIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:contentDescription="Rock"
+                    android:src="@drawable/cow" />
+
+                <TextView
+                    android:id="@+id/moreHelpCowGhostTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/moreHelpCowGhostIV"
+                    android:layout_toRightOf="@+id/moreHelpCowGhostIV"
+                    android:text="@string/moreHelpCowGhost"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/moreHelpCowDanceLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:layout_below="@+id/moreHelpCowGhostLayout">>
+
+                <ImageView
+                    android:id="@+id/moreHelpCowDanceIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:contentDescription="Rock"
+                    android:src="@drawable/cow" />
+
+                <TextView
+                    android:id="@+id/moreHelpCowDanceTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/moreHelpCowDanceIV"
+                    android:layout_toRightOf="@+id/moreHelpCowDanceIV"
+                    android:text="@string/moreHelpCowDance"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/moreHelpCowFatLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:layout_below="@+id/moreHelpCowDanceLayout">>
+
+                <ImageView
+                    android:id="@+id/moreHelpCowFatIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:contentDescription="Rock"
+                    android:src="@drawable/cow" />
+
+                <TextView
+                    android:id="@+id/moreHelpCowFatTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/moreHelpCowFatIV"
+                    android:layout_toRightOf="@+id/moreHelpCowFatIV"
+                    android:text="@string/moreHelpCowFat"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/moreHelpCowZombieLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:layout_below="@+id/moreHelpCowFatLayout">>
+
+                <ImageView
+                    android:id="@+id/moreHelpCowZombieIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:contentDescription="Rock"
+                    android:src="@drawable/cow" />
+
+                <TextView
+                    android:id="@+id/moreHelpCowZombieTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/moreHelpCowZombieIV"
+                    android:layout_toRightOf="@+id/moreHelpCowZombieIV"
+                    android:text="@string/moreHelpCowZombie"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/moreHelpMilkContainerLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:layout_below="@+id/moreHelpCowZombieLayout">>
+
+                <ImageView
+                    android:id="@+id/moreHelpMilkContainerIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:contentDescription="Rock"
+                    android:src="@drawable/cow" />
+
+                <TextView
+                    android:id="@+id/moreHelpMilkContainerTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/moreHelpMilkContainerIV"
+                    android:layout_toRightOf="@+id/moreHelpMilkContainerIV"
+                    android:text="@string/moreHelpMilkContainer"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/moreHelpBellLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:layout_below="@+id/moreHelpMilkContainerLayout">>
+
+                <ImageView
+                    android:id="@+id/moreHelpBellIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:contentDescription="Rock"
+                    android:src="@drawable/cow" />
+
+                <TextView
+                    android:id="@+id/moreHelpBellTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/moreHelpBellIV"
+                    android:layout_toRightOf="@+id/moreHelpBellIV"
+                    android:text="@string/moreHelpBell"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/moreHelpNitroCheeseLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:layout_below="@+id/moreHelpBellLayout">>
+
+                <ImageView
+                    android:id="@+id/moreHelpNitroCheeseIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:contentDescription="Rock"
+                    android:src="@drawable/cow" />
+
+                <TextView
+                    android:id="@+id/moreHelpNitroCheeseTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/moreHelpNitroCheeseIV"
+                    android:layout_toRightOf="@+id/moreHelpNitroCheeseIV"
+                    android:text="@string/moreHelpNitroCheese"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/moreHelpCoinLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:layout_below="@+id/moreHelpNitroCheeseLayout">>
+
+                <ImageView
+                    android:id="@+id/moreHelpCoinIV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:contentDescription="Rock"
+                    android:src="@drawable/cow" />
+
+                <TextView
+                    android:id="@+id/moreHelpCoinTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/moreHelpCoinIV"
+                    android:layout_toRightOf="@+id/moreHelpCoinIV"
+                    android:text="@string/moreHelpCoin"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

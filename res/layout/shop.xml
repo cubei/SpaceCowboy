@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.23" >
+
+        <ImageView
+            android:id="@+id/shop_coin_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="coin"
+            android:src="@drawable/fat_cow" />
+
+        <TextView
+            android:id="@+id/shop_coin_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/shop_coin_icon"
+            android:text="1337"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/back_button" />
+
+    </RelativeLayout>
+	
+    <ListView
+            android:id="@+id/buyableListView"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" >
+        </ListView>
+
+</LinearLayout>

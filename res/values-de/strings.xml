@@ -1,0 +1,81 @@
+<resources>
+
+    <string name="app_name">Space Cowboy</string>
+    <string name="title">Space Cowboy</string>
+    <string name="title_activity_main">Space Cowboy</string>
+    <string name="back_button">zurück</string>
+    <string name="sensor_button">Sensor kalibrieren</string>
+	<string name="help0">Steuere durch Neigen des Gerätes.</string>
+	<string name="help1">Fülle deine Milch auf,</string>
+    <string name="help2">weiche Meteoriten aus oder drücke auf sie</string>
+    <string name="help3">um am Leben zu bleiben.</string>
+    <string name="help4">Sammle die Münzen um der Beste zu werden.</string>
+    <string name="score_textview">Wie ist dein Name, cowboy ?</string>
+    <string name="config_music_volume">Music Lautstärke</string>
+    <string name="config_sound_volume">Sound Lautstärke</string>
+    <string name="reset_highscore">Highscore zurücksetzen</string>
+    <string name="developer">Lars Harmsen</string>
+    <string name="graphics">Lena und Lars Harmsen</string>
+    <string name="music">Kisum</string>
+    <string name="ingamemenu">Willst du das Spiel beenden?</string>
+    <string name="ingamemenuSettingsButton">Einstellungen</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="about">Über</string>
+    
+    <string name="yourScoreIs">Deine erreichte Punktzahl</string>
+    
+    <string name="sign_in_button_help_text">Für online Highscore and Erfolge</string>
+    
+    <string name="moreHelp">Mehr Hilfe</string>
+    <string name="moreHelpControl">Die Rakete wird mit Hilfe des Orientierungssensors gesteuert.
+		Wenn du dein Gerät waagerecht hälst, sollte sich die Rakete nicht bewegen
+		(Über die Einstellungen kann man es ansonsten korrigieren).
+		Wenn man das Gerät in eine Richtung neigt, bewegt sich die Rakete entsprechend.</string>
+    <string name="moreHelpRock">Wenn du mit einem Meteoriten zusammenstößt, verlierst du Milch.
+		Also weiche ihnen aus oder eliminiere sie, indem du sie mit deinem Finger antippst.
+		Wenn du sie mit einer Fingerberührung zerstört, wird du vielleicht etwas Nützliches in den Trümmern finden.</string>
+    <string name="moreHelpRockFrozen">Es gibt Meteoriten, die dich verlangsamen.</string>
+    <string name="moreHelpRockFlash">Und Meteoriten, die dich kurzzeitig betäuben.</string>
+    <string name="moreHelpRockGuided">Manche Meteoriten werden versuchen dich zu verfolgen.</string>
+    <string name="moreHelpRockFat">Und manche Meteoriten kann man nicht mit einer einzigen Fingerberühung zerstören.
+		Stattdessen zerbricht er in mehrere Neue.</string>
+    
+    <string name="moreHelpCow">Um deinen Milchcontainer zu füllen, solltest du Kühe melken, dies tust du, indem du sie mit der Rakete berührst.
+		Denn sollte dein Milchstand auf 0 sinken, hast du verloren.</string>
+	<string name="moreHelpCowOld">Diese etwas ältere Kuh ist schon ein bisschen verwirrt,
+	    wodurch sie manchmal wieder zurück in die Richtung läuft, aus der sie kam.</string>
+	<string name="moreHelpCowGhost">Geisterkühe geben dir kurzfristig ein Schild, das dich vor Milchverlusten schützt und alle negativen Effekte auflöst.</string>
+    <string name="moreHelpCowDance">Die tanzende Kuh wird versuchen dir zu entkommen, fang sie trotzdem.</string>
+    <string name="moreHelpCowFat">Diese Kuh ist zu fett um sich zu bewegen,
+        sollte sie aber kein Gras auf ihrer Position finden (welches ziemlich selten im Weltall ist), wird sie verschwinden.
+        Beeil dich, denn sie gibt eine Menge Milch.</string>
+    <string name="moreHelpCowZombie">Die Milch der Zombiekuh wird deine Milch kontaminieren und sollte vermieden werden.</string>
+    
+    <string name="moreHelpMilkContainer">Um deine maximale Milchkapazität zu erhöhen, kannst du Milchcontainer einsammeln.</string>
+    <string name="moreHelpNitroCheese">Wenn du Nitrokäse isst, wird alles andere für kurze Zeit langsamer erscheinen.</string>
+    <string name="moreHelpBell">Läute die Glocke um Kühe anzulocken.</string>
+    <string name="moreHelpCoin">Um in der Highscore eine gute Figur zu machen, solltest du möglichst viele der Münzen sammeln.
+        Und mit steigender Anzahl von Münzen erhöht sich dein Level,
+        wodurch das Abenteuer schwerer wird und du mehr verschiedene Kühe und Spielobjekte entdecken kannst.</string>
+        
+	<string name="ToastMeteorShower">Ein Meteoritenschauer kommt auf dich zu</string>
+	<string name="ToastSensorCalibration">Sensor kalibriert</string>
+	<string name="ToastNitroOn">Alles anderen erscheinen langsam</string>
+	<string name="ToastNitroOff">Nitroeffekt ist zu Ende</string>
+	<string name="ToastFrost">Du bist eingefroren</string>
+	<string name="ToastFlash">Du bist parallelisiert</string>
+	<string name="ToastPoison">Du bist vergiftet</string>
+	<string name="ToastShield">Schild aktiviert</string>
+
+	<string name="shopBetterRocket">Rakete die nicht so leicht von Meteoriten getroffen wird.</string>
+    <string name="shopMoreStartMilk">Starte mit mehr Milch in ein Spiel.</string>
+    <string name="shopCoinMagnet">Lässt dich Münzen und Power-Ups über größere Entfernung einsammeln</string>
+    <string name="shopCowMagnet">Lässt dich Kühe über größere Entfernung einsammeln</string>
+    <string name="shopGuidedRockProtection">Verlangsamt verfolgende Meteoriten</string>
+    <string name="shopStatusEffectReduction">Halbiert die Dauer von Verlangsamungs-, Betäubungs- und Vergiftungseffekten</string>
+    <string name="shopExplosionAttack">Deine Angriffe auf Meteoriten haben eine höhere Reichweite</string>
+    <string name="shopFullUpgraded">Vollständig aufgewertet</string>
+    
+	<string name="bestScoreText">Dein bestes Ergebnis ist:</string>
+</resources>

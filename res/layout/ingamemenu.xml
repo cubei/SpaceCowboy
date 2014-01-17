@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+       
+    <TextView
+        android:text="@string/ingamemenu"
+        android:textSize="30sp"
+        android:id="@+id/ingamemenuText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/ingamemenuLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ingamemenuText"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+         
+		<Button android:id="@+id/ingamemenuYes"
+			android:textSize="30sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/yes" />
+		
+		<Button android:id="@+id/ingamemenuNo"
+			android:textSize="30sp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/no" />
+	</LinearLayout>
+	
+	<Button android:id="@+id/ingamemenuSettings"
+		android:textSize="30sp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@id/ingamemenuLinearLayout"
+		android:text="@string/ingamemenuSettingsButton" />
+
+</RelativeLayout>

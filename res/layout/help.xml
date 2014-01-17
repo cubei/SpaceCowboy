@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/back_button" />
+
+    <ImageView
+        android:id="@+id/cow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription="cow"
+        android:src="@drawable/cow" />
+
+    <ImageView
+        android:id="@+id/rock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/cow"
+        android:layout_below="@+id/cow"
+        android:layout_marginTop="32dp"
+        android:contentDescription="rock"
+        android:src="@drawable/rock_single" />
+
+    <TextView
+        android:id="@+id/help2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/help1"
+        android:layout_alignTop="@+id/rock"
+        android:text="@string/help2"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/help3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/help2"
+        android:layout_below="@+id/rock"
+        android:text="@string/help3"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/help4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/coin"
+        android:layout_alignLeft="@+id/help3"
+        android:text="@string/help4"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/help0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/help1"
+        android:layout_alignParentTop="true"
+        android:text="@string/help0"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/help1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rock"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/cow"
+        android:text="@string/help1"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/moreHelpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/moreHelp" />
+
+    <ImageView
+        android:id="@+id/coin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/moreHelpButton"
+        android:layout_toLeftOf="@+id/help1"
+        android:contentDescription="coin"
+        android:src="@drawable/coin_single" />
+
+</RelativeLayout>

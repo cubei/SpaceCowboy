@@ -1,0 +1,79 @@
+<resources>
+
+    <string name="app_name">Space Cowboy</string>
+    <string name="title">Space Cowboy</string>
+    <string name="title_activity_main">Space Cowboy</string>
+    <string name="back_button">back</string>
+    <string name="sensor_button">calibrate sensor</string>
+    <string name="help0">Navigate with orientation sensor</string>
+    <string name="help1">Fill your milk stock</string>
+    <string name="help2">and avoid or tap the meteors</string>
+    <string name="help3">to stay alive</string>
+    <string name="help4">Collect these to be the very best</string>
+    <string name="score_textview">What is your name cowboy ?</string>
+    <string name="config_music_volume">Music volume</string>
+    <string name="config_sound_volume">Sound volume</string>
+    <string name="reset_highscore">Reset highscore</string>
+    <string name="developer">Lars Harmsen</string>
+    <string name="graphics">Lena and Lars Harmsen</string>
+    <string name="music">Kisum</string>
+    <string name="ingamemenu">Do you want to exit the game?</string>
+    <string name="ingamemenuSettingsButton">Settings</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="about">about</string>
+    
+    <string name="yourScoreIs">Your score is</string>
+    
+    <string name="sign_in_button_help_text">For online highscore and achievements</string>
+    
+    <string name="moreHelp">More Help</string>
+    <string name="moreHelpControl">The rocket is controlled by the orientationsensor in your device.
+        When you hold your device in level, the rocket should not move
+        (Check the settings if this is not the case).
+        If you tilt your device in one direction, the rocket will begin to move.</string>
+    <string name="moreHelpRock">If you collide with a meteor, you will lose milk.
+        So be sure to dodge them or tap them with your finger to iliminate them.
+        When you destroy it with a fingertap, you may find something useful in the wreckage.</string>
+    <string name="moreHelpRockFrozen">There are meteors that can slow you down.</string>
+    <string name="moreHelpRockFlash">And meteors that will stun you for a moment.</string>
+    <string name="moreHelpRockGuided">Some meteors will try to follow you.</string>
+    <string name="moreHelpRockFat">And some meteors cannot be destroyed with only one single tap, instead they break down into new ones.</string>
+    
+    <string name="moreHelpCow">To fill your container you should milk cows by touching them with the rocket.
+		Once you are at 0 milk, you will lose.</string>
+	<string name="moreHelpCowOld">This old cow is a little bit confused, so it may changed the direction.</string>
+    <string name="moreHelpCowGhost">Ghost cows will grant you a shield for a short time, which prevents you from losing milk and removes all negative effects on you.</string>
+    <string name="moreHelpCowDance">The dancing cow tries to avoid you, catch it anyway.</string>
+    <string name="moreHelpCowFat">This cow is to fat too move,
+        but if it cannot find any grass at its position (which is rare in space), it will disapear.
+        So hurry up, because it gives a lot of milk.</string>
+    <string name="moreHelpCowZombie">The milk of zombie cows will infect the milk in your container, so it would be a good idea to avoid them.</string>
+    
+    <string name="moreHelpMilkContainer">To raise your maximum milk container capacity, you should collect this containers.</string>
+    <string name="moreHelpNitroCheese">If you eat this nitro cheese everything else will seem slower for a short time.</string>
+    <string name="moreHelpBell">Ring the bell to allure some cows.</string>
+    <string name="moreHelpCoin">To get in the highscore collect as many coins as you can.
+        And with more coins your level raises which means the adventure gets harder
+        and you can discover more different cows and other gameobjects.</string>
+        
+    <string name="ToastMeteorShower">A meteor shower is approaching</string>
+    <string name="ToastSensorCalibration">finished calibration</string>
+	<string name="ToastNitroOn">Everyone else seems slow</string>
+	<string name="ToastNitroOff">Nitroeffect faded</string>
+	<string name="ToastFrost">You are frozen</string>
+	<string name="ToastFlash">You are stunned</string>
+	<string name="ToastPoison">You are poisoned</string>
+	<string name="ToastShield">Schield activated</string>
+
+    <string name="shopBetterRocket">This rocket is less likely hit by meteors</string>
+    <string name="shopMoreStartMilk">Get more milk in your container at the start of a game</string>
+    <string name="shopCoinMagnet">Lets you collect coins over a bigger distance</string>
+    <string name="shopCowMagnet">Lets you milk cows over a bigger distance</string>
+    <string name="shopGuidedRockProtection">Slowdowns guided rocks</string>
+    <string name="shopStatusEffectReduction">Reduces the length of freeze, flash and poison effects by half</string>
+    <string name="shopExplosionAttack">Your finger tabs for destroying rocks have a bigger range</string>
+    <string name="shopFullUpgraded">Fully upgraded</string>
+    
+    <string name="bestScoreText">Your best score is:</string>
+</resources>
