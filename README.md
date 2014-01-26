@@ -1,7 +1,13 @@
 SpaceCowboy
 ===========
+![Banner](/graphics/playstore/funktionsgrafik.png)
 
-Small 2D Android Game
+[![Get it on Google Play](https://developer.android.com/images/brand/en_generic_rgb_wo_45.png)]
+(https://play.google.com/store/apps/details?id=com.quchen.spacecowboy&hl=de)
+
+**Small 2D Android Game**
+![Sceenshot](/graphics/playstore/tablet_screenshot_2.png)
+
 Using things like:
   - SurfaceView
   - Bitmap
@@ -9,4 +15,4 @@ Using things like:
   - Google Play Services
   - bad code style
 
-https://play.google.com/store/apps/details?id=com.quchen.spacecowboy&hl=de
+
