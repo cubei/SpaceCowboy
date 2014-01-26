@@ -6,7 +6,7 @@ SpaceCowboy
 (https://play.google.com/store/apps/details?id=com.quchen.spacecowboy&hl=de)
 
 **Small 2D Android Game**
-![Sceenshot](/graphics/playstore/tablet_screenshot%20(2).png)
+![Sceenshot](/graphics/playstore/tablet_screenshot_2.png)
 
 Using things like:
   - SurfaceView
