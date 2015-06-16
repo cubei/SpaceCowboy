@@ -24,7 +24,8 @@ public class AddScore extends GameActivity {
 		setContentView(R.layout.addscore);
 		
 		TextView tvPoints = (TextView)findViewById(R.id.points);
-		tvPoints.setText(getResources().getString(R.string.yourScoreIs) + ": " + this.getIntent().getExtras().getInt("points"));
+		tvPoints.setText(getResources().getString(R.string.yourScoreIs) + ": " + this.getIntent().getExtras().getInt("points")
+				+ "\nSee you Space Cowboy");
 		tvPoints.setTextSize(Util.getTextSize());
 		
 		okButton = (Button)findViewById(R.id.bok);
